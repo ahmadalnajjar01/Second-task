@@ -1,4 +1,5 @@
 # Second-task
+[html repo](https://github.com/ahmadalnajjar01/Second-task.git)
 # HTML Learning Project
 
 This repository contains my practice projects for learning HTML, focusing on building the following components:
@@ -14,5 +15,4 @@ The goal of this project is to understand and implement basic HTML elements and 
 - Creating interactive and accessible forms.
 - Designing tables for organized data presentation.
 
-```bash
-[html repo](https://github.com/ahmadalnajjar01/Second-task.git)
+
