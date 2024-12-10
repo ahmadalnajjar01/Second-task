@@ -15,4 +15,4 @@ The goal of this project is to understand and implement basic HTML elements and 
 - Designing tables for organized data presentation.
 
 ```bash
-git https://github.com/ahmadalnajjar01/Second-task.git
+[html repo](https://github.com/ahmadalnajjar01/Second-task.git)
