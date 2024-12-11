@@ -9,16 +9,21 @@
 <body>
     <h1>Rigistation Form</h1>
     <br>
-    <h3>Personal details</h3>    
+    
+      
     <form action="/submit_form" method="POST">
+        <fieldset>
+        <h3>Personal details</h3> 
+        
+            <hr> 
         <!-- First Name -->
         <label for="first_name">First Name:</label>
-        <input type="text" id="first_name" name="first_name" required>
+        <input type="text"  name="first_name" required>
         <br><br>
 
         <!-- Last Name -->
         <label for="last_name">Last Name:</label>
-        <input type="text" id="last_name" name="last_name" required>
+        <input type="text"  name="last_name" required>
         <br><br>
 
         <!-- Email -->
@@ -28,15 +33,15 @@
 
         <!-- Gender -->
         <label>Gender:</label>
-        <input type="radio" id="male" name="gender" value="Male" required>
+        <input type="radio"  name="gender" value="Male" required>
         <label for="male">Male</label>
-        <input type="radio" id="female" name="gender" value="Female" required>
+        <input type="radio"  name="gender" value="Female" required>
         <label for="female">Female</label>
         <br><br>
 
         <!-- City -->
         <label for="city">City:</label>
-        <select id="city" name="city" required>
+        <select  name="city" required>
             <option value="Amman">Amman</option>
             <option value="Zarqa">Zarqa</option>
             <option value="Irbid">Irbid</option>
@@ -46,6 +51,7 @@
 
         <!-- Signup Button -->
         <button type="submit">Sign Up</button>
+    </fieldset>
     </form>
 </body>
 </html>
